@@ -43,6 +43,20 @@ a:hover{
 	text-align: center;
 	height: 100%;
 }
+.container .bcd{float: left;position: relative;}
+            .container .bcd div{background-color: #fff;border: 1px solid #e4e4e4;border-radius: 5px;margin-top: 10px;min-height: 100px;}
+            .container .bcd div img{border-radius: 5px 5px 0 0;height: auto;width: 100%;}
+            .container .bcd div a.bottom{background: none repeat scroll 0 0 #fff;bottom: 4px;color: #000;font-size: 14px;padding: 9px 0 5px;position: relative;width: 100%;display: inline-block;}
+            .container .bcd div a.bottom h3{padding: 0 10px;}
+            @media (max-width: 700px) {
+                .bcd{width: 100%; text-align: center;}
+                .bcd div{margin: 0 10px}
+            }
+            @media (min-width: 700px) {
+                .bcd {width: 20%;}
+                .bcd:nth-child(odd) div {margin-left: 10px;margin-right: 5px;}
+                .bcd:nth-child(even) div {margin-left: 5px;margin-right: 10px;}
+            }
 .toggle-btn {
     background: #141414 none repeat scroll 0 0;
     text-align: center;
@@ -269,7 +283,7 @@ li {
 }
 .services-background {
     margin-bottom: -30px;
-    padding: 100px 0 0;
+    padding: 20px 0 0;
 }
 .servicesWrapper {
     padding: 0;
@@ -288,7 +302,7 @@ li {
     padding-left: 66px;
 }
 .portfolio-background {
-    padding: 100px 0 0;
+    padding: 20px 0 0;
 }
 .portfolio-background .section-title {
 	display: inline-table;
@@ -391,7 +405,7 @@ button.mfp-close:hover {
     width: 100%;
 }
 .resume-background {
-    padding: 100px 0 0;
+    padding: 20px 0 0; 
 }
 .resumeWrapper {
     padding: 0;
@@ -424,7 +438,7 @@ button.mfp-close:hover {
     padding-bottom: 5px;
 }
 .blog-background {
-    padding: 100px 0 0;
+    padding: 20px 0 0;
 }
 .blogWrapper {
     padding: 0;
@@ -466,7 +480,7 @@ button.mfp-close:hover {
     border-color: #141414;
 }
 .testimonial-background {
-    padding: 100px 0 0;
+    padding: 20px 0 0;
 }
 .testimonialWrapper {
     padding: 0;
@@ -575,7 +589,7 @@ button.mfp-close:hover {
     background: #141414 none repeat scroll 0 0;
 }
 .contact-background {
-    padding: 100px 0 0;
+    padding: 20px 0 0;
 }
 .contact-form, .contact-info, .contactWrapper {
     padding: 0;
